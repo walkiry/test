@@ -6,8 +6,7 @@ name: issue
 # events but only for the main branch
 on:
   issues:
-    types: 
-      - milestoned
+    types: [milestoned]
   issue_comment:
     types: [created]
   pull_request:
